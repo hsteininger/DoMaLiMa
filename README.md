@@ -179,5 +179,5 @@ To `quit` from an attached container press `ctrl-p+q`
 
 
 
-###### (c) Herbert Steininger <hsteininger@hsteininger.de>
+###### Herbert Steininger 2017
 [1]: https://de.mathworks.com/downloads/web_downloads/select_release
