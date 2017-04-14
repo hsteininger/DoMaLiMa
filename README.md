@@ -1,6 +1,5 @@
-#DoMaLiMa
+# DoMaLiMa
 ## Docker Matlab License Manager
-###### (c) Herbert Steininger <hsteininger@hsteininger.de>
 
 
 ## Introducing
@@ -18,7 +17,7 @@ makes it easy to port the License-Manager to some other Server without deactivat
 ***
 
 
-##Installation
+## Installation
 
 
 ### Software
@@ -179,4 +178,6 @@ docker attach license03
 To `quit` from an attached container press `ctrl-p+q`
 
 
+
+###### (c) Herbert Steininger <hsteininger@hsteininger.de>
 [1]: https://de.mathworks.com/downloads/web_downloads/select_release
