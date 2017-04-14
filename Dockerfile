@@ -5,7 +5,7 @@
 FROM debian
 
 #maintainer
-MAINTAINER Herbert Steininger <herbert_steininger@psych.mpg.de>
+MAINTAINER Herbert Steininger <hsteininger@hsteininger.de>
 
 #set env variables
 ENV DEBIAN_FRONTEND noninteractive
