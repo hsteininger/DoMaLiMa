@@ -113,15 +113,15 @@ to bring up the interfaces.
 
 Now you can build the Container with:
 ```bash
-docker build -t hsteininger/DoMaLiMa .
+docker build -t hsteininger/domalima .
 ```
 
 If you're behind a Proxy you can use `--build-args` to set a Proxy
 ```bash
 docker build --build-arg HTTP_PROXY=http://YOUR-HTTP-PROXY:80/ \
              --build-arg HTTPS_PROXY=http://YOUR-HTTPS-PROXY:443/ \
-             --build-arg HTTPS_PROXY=http://YOUR-FTP-PROXY:80/ \
-             -t hsteininger/DoMaLiMa .
+             --build-arg FTP_PROXY=http://YOUR-FTP-PROXY:80/ \
+             -t hsteininger/domalima .
 ```
 
 ***
@@ -137,21 +137,21 @@ Keep hostname, mac-address and IP-Portmapping, because of MatLab-License-Host-Ma
 ```
 docker run -itd --restart always -p 192.168.1.241:27000-27001:27000-27001 \
             --mac-address="00:00:00:00:00:01" -h license01 --name=license01 \
-            hsteininger/DoMaLiMa
+            hsteininger/domalima
 ```
 
 ###### license02
 ```
 docker run -itd --restart always -p 192.168.1.242:27000-27001:27000-27001 \
             --mac-address="00:00:00:00:00:02" -h license02 --name=license02 \
-            hsteininger/DoMaLiMa
+            hsteininger/domalima
 ```
 
 ###### license03
 ```
 docker run -itd --restart always -p 192.168.1.243:27000-27001:27000-27001 \
             --mac-address="00:00:00:00:00:03" -h license03 --name=license03 \
-            hsteininger/DoMaLiMa
+            hsteininger/domalima
 ```
 
 ***
