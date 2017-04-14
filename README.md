@@ -4,15 +4,15 @@
 
 ## Introducing
 
-DoMaLiMa let you build, silent-install and run an dockerized Matlab-FlexLM-Manager which can be reached from all
-other Hosts in your Network.
+**DoMaLiMa** let you build, silent-install and run an dockerized **Matlab-FlexLM-Manager** which can be reached from all
+other hosts in your network.
 
-You can spawn only one or how much are needed to fullfill your License-Quorum.
+You can spawn only one or how much are needed to fullfill your license-quorum.
 
-For this Example we will use three Containers
+For this example we will use three containers
 
-Because of the fact that you can give an Docker-Container every Mac-Address
-makes it easy to port the License-Manager to some other Server without deactivating the License
+Because of the fact, that you can give an Docker-Container every Mac-Address
+it is easy to port the License-Manager quickly to some other Server without deactivating the License
 
 ***
 
@@ -36,6 +36,7 @@ marked with:
 fileInstallationKey=$PUT-YOUR-KEY-HERE
 ```
 
+***
 
 ##### MatLab R2017a
 
@@ -57,7 +58,7 @@ we use virt. interfaces and map them to the container during the 'docker run'-co
 
 Put in `/etc/network/interfaces`, or wherever your distribution holds Interface-Config-Files
 
-Change Settings according to your needs
+Change settings according to your needs
 
 ```bash
 auto eth0:1
