@@ -135,21 +135,21 @@ Keep hostname, mac-address and IP-Portmapping, because of MatLab-License-Host-Ma
 
 ###### license01
 ```
-docker run -itd --restart always -p 192.168.1.241:27000-27001:27000-27001 \
+docker run -itd --restart unless-stopped -p 192.168.1.241:27000-27001:27000-27001 \
             --mac-address="00:00:00:00:00:01" -h license01 --name=license01 \
             hsteininger/domalima
 ```
 
 ###### license02
 ```
-docker run -itd --restart always -p 192.168.1.242:27000-27001:27000-27001 \
+docker run -itd --restart unless-stopped -p 192.168.1.242:27000-27001:27000-27001 \
             --mac-address="00:00:00:00:00:02" -h license02 --name=license02 \
             hsteininger/domalima
 ```
 
 ###### license03
 ```
-docker run -itd --restart always -p 192.168.1.243:27000-27001:27000-27001 \
+docker run -itd --restart unless-stopped -p 192.168.1.243:27000-27001:27000-27001 \
             --mac-address="00:00:00:00:00:03" -h license03 --name=license03 \
             hsteininger/domalima
 ```
