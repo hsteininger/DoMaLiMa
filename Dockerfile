@@ -2,7 +2,7 @@
 # VERSION 1.0.1
 
 #what image to use
-FROM debian
+FROM debian:stretch
 
 #maintainer
 MAINTAINER Herbert Steininger <hsteininger@hsteininger.de>
